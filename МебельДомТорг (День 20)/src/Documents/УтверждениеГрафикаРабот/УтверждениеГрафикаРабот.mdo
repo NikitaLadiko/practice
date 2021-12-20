@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="496dfeb0-d54b-4e41-9555-bd5018c7e9af">
+  <producedTypes>
+    <objectType typeId="1145db47-a153-4b55-9906-aa4792926bfc" valueTypeId="4ee53999-85ad-4385-84a6-3d3429344573"/>
+    <refType typeId="0aff909e-e067-4bbf-982c-03ba4d4ad40e" valueTypeId="185b27bd-04e1-4c6a-81b4-6dbfd98f5f66"/>
+    <selectionType typeId="40e59209-4652-4cd6-8ba3-81016d0e583d" valueTypeId="b41cf5bf-3a41-45b0-ab52-4cccba7834ad"/>
+    <listType typeId="f5440990-dce9-4fcc-afd4-4da3f77441fa" valueTypeId="b931fbf2-3599-4cad-b356-aa66649c0a94"/>
+    <managerType typeId="cc622453-4304-4122-9424-787755a0c1ae" valueTypeId="f9441353-764f-44be-8a9a-27ddbe848d45"/>
+  </producedTypes>
+  <name>УтверждениеГрафикаРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утверждение графика работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УтверждениеГрафикаРабот.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ГрафикРаботы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="30b4642c-cbd4-4d8b-b9d3-0bd9c3981d5c">
+    <name>ДатаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44389631-067e-4389-99d0-dea284699b1e">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
