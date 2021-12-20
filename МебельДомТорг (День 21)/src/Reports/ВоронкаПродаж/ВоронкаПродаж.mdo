@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b715caea-48b6-4048-a0fd-3152b7b284c7">
+  <producedTypes>
+    <objectType typeId="cdfef07f-3891-4196-b0bf-26cbe5eed215" valueTypeId="a129b010-1c4f-4817-a850-9ed53e8dbe18"/>
+    <managerType typeId="3754cc5c-1eeb-4a18-9bb4-13e60fdfe4c6" valueTypeId="db939cf1-33e7-4138-96ec-baa16f8dedf9"/>
+  </producedTypes>
+  <name>ВоронкаПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воронка продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВоронкаПродаж.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="06cbfeeb-cff7-496a-8962-f82f9f798ebc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

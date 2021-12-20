@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ca5c5e1-eee7-40b6-b47f-ecd46c206837">
+  <name>БизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес процессы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаБизнесПроцессы</picture>
+  </picture>
+  <content>BusinessProcess.ПриемСотрудникаНаРаботу</content>
+  <content>Task.ЗадачиПриемаСотрудника</content>
+  <content>BusinessProcess.НастойчиваяПродажа</content>
+  <content>Task.ЗадачаНастойчивыхПродаж</content>
+</mdclass:Subsystem>

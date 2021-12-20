@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2fd65ed-a3fb-49f5-a067-85f0f6017731">
+  <producedTypes>
+    <selectionType typeId="8def9ca1-08f1-4ecc-bc5a-92a4ffaa5ea7" valueTypeId="32f8dd9c-9d9e-4be0-ae2f-a1841cc8bede"/>
+    <listType typeId="66914456-57ad-4590-9a1d-df3570ff1d5a" valueTypeId="afeff0e2-cee5-475f-b7f3-1c8587979810"/>
+    <managerType typeId="af9c37ec-45ed-414f-aebe-40a4236ae532" valueTypeId="9b1a1cab-b4c0-49e9-a097-05f80ed3a231"/>
+    <recordSetType typeId="cd090ad0-8a5c-44a0-a5b0-79503bda8705" valueTypeId="4ea22207-99d0-4299-96b1-8de2459a9d3c"/>
+    <recordKeyType typeId="5b9bb85d-2fb4-4d02-9c78-1930ab09d26f" valueTypeId="04af09b1-7081-4932-9b60-e60e99b6d6be"/>
+    <recordType typeId="0fe44955-777a-4dd3-93f2-09fcd640f132" valueTypeId="a036a6e5-03e0-4e97-9d16-93429c9144f3"/>
+  </producedTypes>
+  <name>ВоронкаПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воронка продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ea18cd3b-a2d6-424f-8ec5-fddbdaec6d00">
+    <name>КоличествоСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество сделок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="36dd3e73-9e94-4487-b077-1e216935e4ec">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b8441047-d9d1-4b9c-a9a9-ecc4ed4e38a8">
+    <name>СтатусСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус сделки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыСделок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

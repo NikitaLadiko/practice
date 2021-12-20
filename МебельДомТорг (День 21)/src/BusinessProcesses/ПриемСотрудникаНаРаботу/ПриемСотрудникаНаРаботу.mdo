@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17c95900-bcf8-4bf3-b96b-39b53786026a">
+  <producedTypes>
+    <objectType typeId="376f0b66-aa4c-4141-a4d7-155f429a1462" valueTypeId="e9a575a2-1a0f-4cfd-911c-cd75c6183403"/>
+    <refType typeId="abeabaef-56a8-4f7b-831b-9733e357146c" valueTypeId="5aca6ba8-0d4d-4865-9c03-530985dc9c8e"/>
+    <selectionType typeId="602cc45e-faf4-4067-80ce-853aa0ee992a" valueTypeId="2a896371-8828-4e54-bd57-66e8ee35b478"/>
+    <listType typeId="c5227e81-57fa-4772-9da3-3fc9e46b8f1c" valueTypeId="575b1acd-e38b-44a1-a88a-2cd610ec3b78"/>
+    <managerType typeId="f42d3983-6ba0-4bfa-bf97-7a0df4328782" valueTypeId="f55a6016-ff49-4f28-ab1c-5edc1c04b6c9"/>
+    <routePointRef typeId="ab45174c-f729-4b01-983a-175dfc92eb90" valueTypeId="8be6452b-7fae-4cfb-86b4-0e77543a35a4"/>
+  </producedTypes>
+  <name>ПриемСотрудникаНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием сотрудника на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ПриемСотрудникаНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ПриемСотрудникаНаРаботу.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачиПриемаСотрудника</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="52406f58-17fb-44e0-a5a1-77beffcda27b">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c03db24c-ab88-48ea-8e1e-946d1a4bbbbe">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

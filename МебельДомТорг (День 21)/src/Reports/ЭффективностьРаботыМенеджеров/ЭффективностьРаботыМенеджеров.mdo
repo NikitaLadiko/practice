@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fa4c5ac-44af-48ad-85ef-b35f68da761f">
+  <producedTypes>
+    <objectType typeId="32c67edb-dc52-419f-a88e-d349137d2a95" valueTypeId="2b2381f5-f047-48a6-92e7-ad010aa6c27d"/>
+    <managerType typeId="b8068581-0085-4579-8e9b-cf299b40a7c2" valueTypeId="89563c64-450b-467e-b31d-0af5a3ce6d4a"/>
+  </producedTypes>
+  <name>ЭффективностьРаботыМенеджеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эффективность работы менеджеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЭффективностьРаботыМенеджеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8ead8535-1572-48f8-9c8e-fc09d2cb3ebc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

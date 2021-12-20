@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88becf3a-88bc-4aa9-925a-fc614680d83f">
+  <producedTypes>
+    <objectType typeId="2cdd477f-3c58-4952-8dd9-172a8be23214" valueTypeId="2b802ae8-653a-4590-98d0-54589a7b53d0"/>
+    <refType typeId="05968c5d-ef91-4c9d-a266-15ecfb56ef58" valueTypeId="627c5ae0-a862-4868-83c8-c33a134e9d82"/>
+    <selectionType typeId="229050d6-958e-4588-b845-45ee3070ca77" valueTypeId="53bdfe15-7a40-4953-867f-5c9b4a97ae2f"/>
+    <listType typeId="cd970cc3-bfa8-4566-a240-4ee87c81515c" valueTypeId="b8e995a6-a1cb-476d-9fc8-ef30725aa7af"/>
+    <managerType typeId="741157f5-d05a-4145-92d3-5464037540ea" valueTypeId="a2b377e6-f65a-4069-8228-c40669fd463f"/>
+    <routePointRef typeId="900343b2-d3cc-4ec1-bcac-0a7d8cd8dc6b" valueTypeId="5dd970f4-76a6-4346-acd8-aea8fc0639c4"/>
+  </producedTypes>
+  <name>НастойчиваяПродажа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настойчивая продажа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.НастойчиваяПродажа.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.НастойчиваяПродажа.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаНастойчивыхПродаж</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="8595bbc1-b829-4474-9e06-654b7e368e06">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca5b0bd6-b23e-4286-a400-e8af34118dbd">
+    <name>УсловияПродажСогласованы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия продаж согласованы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cc89c80b-7033-4f30-a09e-2fb0896151ae">
+    <producedTypes>
+      <objectType typeId="682f34f3-66cd-4d30-9cf9-70f1ee8cdb29" valueTypeId="b5aa30b7-4a4a-4dd1-a12b-c227c4aff375"/>
+      <rowType typeId="6f2c9397-58a9-4af4-8025-724b521f8031" valueTypeId="444ba137-e7bc-4e37-a734-c89e2b85472f"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="b8cb9f58-e96c-4b94-a6c4-601a01d4b887">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1fca365a-8dd8-4e1e-b9b8-d14e0fba6db5">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

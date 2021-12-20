@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d923725-4e73-4022-bc0b-d2193b7a6715">
+  <producedTypes>
+    <objectType typeId="eb62fa01-a6b2-416a-ae85-181bcbdd9a07" valueTypeId="0fbe49d5-b30e-49fd-8257-8859e76c87e7"/>
+    <refType typeId="7ed7f227-7074-48bf-9174-803216116954" valueTypeId="23b80937-42c2-42b0-a799-4d7ac217094d"/>
+    <selectionType typeId="4d12c8b2-ce2f-4e1b-8a96-52c2efc12884" valueTypeId="e59f3629-f7c5-4ac0-b9ec-d08293d3bcb4"/>
+    <listType typeId="38d71948-4663-4898-af6b-838a3b6a30dc" valueTypeId="70dfd598-2c34-4c28-9447-ea34b0e73361"/>
+    <managerType typeId="43188e5e-2d5f-4c42-afd7-340eeb3e6b71" valueTypeId="ed085b3b-aee1-49c0-abd7-2774a435cd39"/>
+  </producedTypes>
+  <name>ЗадачаНастойчивыхПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача настойчивых продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаНастойчивыхПродаж.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачаНастойчивыхПродаж.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>

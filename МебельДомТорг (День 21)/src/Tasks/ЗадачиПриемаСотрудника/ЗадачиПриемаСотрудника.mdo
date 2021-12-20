@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50ca1780-2a20-400e-8f7b-10781820c470">
+  <producedTypes>
+    <objectType typeId="4131e53e-2051-41e5-bbab-c0b48a281dce" valueTypeId="d5b196f2-95af-4a7f-82ff-7aed2abff34d"/>
+    <refType typeId="750555d9-ba3c-4798-98ec-e0d08c9fd650" valueTypeId="5e9c3c73-6c06-468e-919c-4993fd1432eb"/>
+    <selectionType typeId="116c0746-4ad4-409c-9c88-9290a7184b6a" valueTypeId="d02b6caa-695f-403b-84d5-0e8f66a1f066"/>
+    <listType typeId="816cb527-e3f1-48fb-a1ed-aeba43b56217" valueTypeId="1cb94dc7-d27a-48d6-bd21-fa5154fb7626"/>
+    <managerType typeId="ef185552-0c75-40d8-b186-437fe5bd9b06" valueTypeId="559fd5e4-8836-45b3-9356-6f7555943ab1"/>
+  </producedTypes>
+  <name>ЗадачиПриемаСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи приема сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачиПриемаСотрудника.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачиПриемаСотрудника.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>50</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>
