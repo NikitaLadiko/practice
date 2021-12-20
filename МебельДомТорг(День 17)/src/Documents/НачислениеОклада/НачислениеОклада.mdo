@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbcb155c-1951-4d21-aaa5-a7bd50ee9eb5">
+  <producedTypes>
+    <objectType typeId="32fcce23-b502-491d-8fae-b643a7cd3d58" valueTypeId="c27918ec-9a20-428f-ab21-bfca33591d1e"/>
+    <refType typeId="a6c4819f-9e62-49f7-974d-e570b5bc2705" valueTypeId="624b848e-bde8-4b54-a285-6be711c3d470"/>
+    <selectionType typeId="188c8e77-f0e3-4ed2-94e6-eebf13bdb9f1" valueTypeId="674c3fc3-e804-45ed-987c-e1a46e82e1ce"/>
+    <listType typeId="d32f5c2e-533e-45b1-9ea1-c995a0d5f132" valueTypeId="f3918565-c65c-4874-93f7-40922bce9b03"/>
+    <managerType typeId="3d5501e0-0605-4eaa-b29f-efae65f617eb" valueTypeId="1b3c5d6a-fee0-4ca0-9543-5be715a184de"/>
+  </producedTypes>
+  <name>НачислениеОклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление оклада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеОклада.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ЗаработнаяПлата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="691278ca-2e60-4f90-9210-bf2fc304aa85">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfe37546-4cf3-4fce-a3dc-643cb501492f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1d9648d-7eec-4626-b03c-e6137b3b26bd">
+  <producedTypes>
+    <selectionType typeId="2083a6ff-7d8b-40d3-a4b1-0725a35dc9dd" valueTypeId="256f8837-4924-43fb-86c9-ce39f415aee7"/>
+    <listType typeId="b16be95e-3c21-4cdf-a7f4-0db6555e2662" valueTypeId="e8ca5eb0-46d4-43fe-8b8b-1f5856ca3fb4"/>
+    <managerType typeId="990630ad-2179-4dee-a4a5-8bdf64f2a2d1" valueTypeId="936a75be-c4f5-42ce-ac00-86e91b6c1868"/>
+    <recordSetType typeId="a13920de-73b3-4dee-9da7-79a2e86a1ff6" valueTypeId="88d5a138-4612-4b1a-86d6-6b04e8fb8ab1"/>
+    <recordKeyType typeId="d9bedc44-08eb-4a51-b469-cc12f4fc32b4" valueTypeId="0fa11b81-0cc9-4a50-bd82-1d113c8923e0"/>
+    <recordType typeId="1f036d04-dcf8-4280-9f80-5fdf43e1cf76" valueTypeId="119020c3-889f-4fe1-869a-716c258fd6fd"/>
+    <recordManagerType typeId="db4ad289-ee07-4f9e-9bfa-c4202c308871" valueTypeId="1012b717-9236-4394-97a0-ef36503bba7c"/>
+  </producedTypes>
+  <name>ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="498689ec-432f-461e-9c60-da30bc25af99">
+    <name>РабочийДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4dfd956f-455c-4d23-b6b6-1ac5d93d5658">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

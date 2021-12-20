@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="243c80db-2133-48de-a566-b532d5c40bf2">
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаЗарплата</picture>
+  </picture>
+  <content>ChartOfCalculationTypes.Начисления</content>
+  <content>InformationRegister.ГрафикРаботы</content>
+  <content>Document.УтверждениеГрафикаРабот</content>
+  <content>CalculationRegister.ЗаработнаяПлата</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Document.НачислениеОклада</content>
+  <content>Document.НевыходСотрудника</content>
+</mdclass:Subsystem>

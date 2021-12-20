@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01701e8a-f006-4c14-a0cf-436af0a1b4b4">
+  <producedTypes>
+    <selectionType typeId="eeaf9f68-2dbd-4735-bc91-3ed922bfcc69" valueTypeId="65fb3db7-e50c-44c9-bc5a-1cc54beb1523"/>
+    <listType typeId="f3d70c4b-4606-4949-a847-e61ad36aa383" valueTypeId="75d9efb6-3760-4489-b4e9-91ca147fd481"/>
+    <managerType typeId="d97d1c2a-8fd8-4bbe-b49b-82e05997371c" valueTypeId="b90ce6a0-5839-43aa-94c5-b95183db62cf"/>
+    <recordSetType typeId="07a2f928-6c45-40ca-b298-67c29e9f81f8" valueTypeId="a7074de1-c52a-454d-9453-d5b080491d81"/>
+    <recordKeyType typeId="aa81a5bf-de92-4702-abca-8f900892fc98" valueTypeId="58fce2dd-ebde-4c7c-b4dd-fb71297ef967"/>
+    <recordType typeId="40f3d208-ac2b-4ff3-a0ab-ae24de95fd7c" valueTypeId="b5ae3f39-2057-402a-b9bb-b1754559081a"/>
+    <recalcsType typeId="55032cf9-ef24-4355-8143-50d2b100309c" valueTypeId="dcb993d3-dcc9-4b76-a404-505d20a4f18e"/>
+  </producedTypes>
+  <name>ЗаработнаяПлата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заработная плата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <schedule>InformationRegister.ГрафикРаботы</schedule>
+  <scheduleValue>InformationRegister.ГрафикРаботы.Resource.РабочийДень</scheduleValue>
+  <scheduleDate>InformationRegister.ГрафикРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="20fcd46b-ac59-4bb4-85ad-dc75db575582">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f8f10aa8-fc5b-492d-b521-b1f0212d0b37">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>
